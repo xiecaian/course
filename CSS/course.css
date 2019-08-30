@@ -1,0 +1,113 @@
+.wrap{
+    position: relative;
+    width: 375px;
+    height: 667px;
+    margin: 50px auto;
+    box-shadow: 0 0 5px #999;
+}
+
+.bd{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 78px;
+    background-color: #ffffff;
+    border: 1px solid #999; 
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    height: 44px;
+    padding: 5px 10px;
+    background-color: #ff0000;
+}
+
+.search i{
+    position:absolute;
+    left: 18px;
+    top:11px;
+}
+
+.search input{
+    width: 100%;
+    height: 31px;
+    border-radius: 3px;
+    text-indent: 32px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+}
+
+.wrap .tab{
+    width: 100%;
+    height: 34px;
+}
+.wrap .tab .list{
+    width: 100%;
+    height: 100%;
+}
+.wrap .tab .item{
+    float: left;
+    width: 33%;
+    height: 100%;
+    line-height: 34px;
+    text-align: center;
+    
+}
+
+.wrap .tab .item a{
+    color: #424242;
+}
+
+.wrap .tab .item.active a{
+    color: #ff0000;
+}
+
+.wrap .container{
+    position: absolute;
+    left: 0;
+    top: 78px;
+    width: 100%;
+    height: 587px;
+    overflow:auto;
+
+}
+.wrap .container .pagelist{
+    width: 100%;
+    height: 100px;
+}
+
+.wrap .container .page-item{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #999;
+}
+.wrap .container .imgwrap{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 5px 10px;
+}
+.wrap .container .imgwrap img{
+    width: 155px;
+}
+
+.wrap .container .textwrap{
+    padding-left: 175px;
+}
+.wrap  .container .textwrap h3,p{
+    color:#424242;
+    padding-top:5px;
+    font-size: 13px;
+}
+
+
+.wrap .container .free{
+    color:#00ff00;
+}
+.wrap .container .VIP{
+    color:#ff7b00;
+}
